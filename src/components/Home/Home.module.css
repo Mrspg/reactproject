@@ -1,0 +1,52 @@
+
+video {
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.main_web_page{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    font-family:sans-serif;
+}
+
+.other_content{
+    position: relative;
+}
+.home_main_container{
+    padding: 40px;
+    margin-top:10%;
+}
+
+.home_head{
+    color: black;
+}
+
+.home_head h1{
+    font-size: 43px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.home_head p {
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.home_button{
+    color: white;
+    padding: 20px;
+    text-align: right;
+    background-color: rgb(22, 22, 22);
+    margin-bottom: 10px;
+    width: fit-content;
+    border-radius: 8px;
+}

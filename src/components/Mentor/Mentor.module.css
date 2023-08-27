@@ -1,0 +1,62 @@
+.team_head{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+    background: -webkit-linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.TeamheaderAfterContent{
+    padding-left: 10%;
+}
+
+.team_card_container{
+  display: inline-flex;
+}
+
+.team_card{
+    font-size: 25px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.mentor_img_container{
+   margin-right: 120px
+}
+
+.mentor_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.mentor_heading{
+    margin-left: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.message_button{
+    cursor: pointer;
+    border: 1px  solid  #B656E2;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 18px;
+    width: 12vw;
+    display: inline-block;
+    padding: 1px;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
